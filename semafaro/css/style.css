@@ -1,0 +1,41 @@
+*{
+    margin:0;padding:0;border:0;box-sizing: border-box;text-decoration: none;
+}
+html{
+    font-size: 6.25%;
+}
+
+.btn{
+    position: relative;
+    margin: 50rem auto;
+    border:15rem outset #777;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 100rem;
+    width: 225rem;
+    height: 700rem;
+}
+
+.btn-123{
+    margin: 5rem;
+    padding:70rem;
+    border-radius: 150rem;
+    border:12rem outset #777;
+}
+
+.btn-red{
+    border:12rem outset red;
+    background-image: linear-gradient(white,black,red);
+
+}
+.btn-yellow{
+    background-color: yellow;
+    border:12rem outset yellow;
+    background-image: linear-gradient(white,black,yellow);
+}
+.btn-green{
+    background-color: green;
+    border:12rem outset green;
+    background-image: linear-gradient(white,black,green);
+}
